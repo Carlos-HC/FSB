@@ -99,11 +99,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Tiempos para pruebas más rápidas (0.5 a 1 minutos)
-        const minTime = .5 * 60 * 1000;
-        const maxTime = 1 * 60 * 1000;
+        // const minTime = .5 * 60 * 1000;
+        // const maxTime = 1 * 60 * 1000;
         // Para tiempos reales, usa:
-        // const minTime = 30 * 60 * 1000; // 30 minutos
-        // const maxTime = 45 * 60 * 1000; // 45 minutos
+        const minTime = 30 * 60 * 1000; // 30 minutos
+        const maxTime = 45 * 60 * 1000; // 45 minutos
 
         const randomTime = Math.floor(Math.random() * (maxTime - minTime + 1)) + minTime;
 
