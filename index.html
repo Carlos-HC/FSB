@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tu Espacio para el Éxito y la Calma</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    </head>
+<body>
+
+    <header class="main-header">
+        <div class="container header-content">
+            <div class="logo">
+                <h1>Tu Espacio para el Éxito</h1>
+                </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#tecnicas-estudio">Técnicas de Estudio</a></li>
+                    <li><a href="#ejercicios">Ejercicios para Activarte</a></li>
+                    <li><a href="#expresarte">ExpressArte</a></li>
+                </ul>
+            </nav>
+            <button id="modoEstudioBtn" class="btn-primary">Modo Estudio <span class="toggle-switch"></span></button>
+        </div>
+    </header>
+
+    <section class="hero-section">
+        <div class="container hero-content">
+            <h2>Tu espacio para el éxito y la calma</h2>
+            <p>Herramientas y recursos para potenciar tu estudio y bienestar integral.</p>
+            <div class="quick-access-cards">
+                <a href="#tecnicas-estudio" class="card card-tecnicas">
+                    <img src="icons/brain-icon.svg" alt="Técnicas de Estudio">
+                    <h3>Técnicas de Estudio</h3>
+                    <p>Optimiza tu aprendizaje.</p>
+                </a>
+                <a href="#ejercicios" class="card card-ejercicios">
+                    <img src="icons/movement-icon.svg" alt="Ejercicios para Activarte">
+                    <h3>Ejercicios para Activarte</h3>
+                    <p>Recarga tu energía.</p>
+                </a>
+                <a href="#expresarte" class="card card-expresarte">
+                    <img src="icons/art-icon.svg" alt="ExpressArte">
+                    <h3>ExpressArte</h3>
+                    <p>Libera tu creatividad y estrés.</p>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section id="tecnicas-estudio" class="content-section">
+        <div class="container">
+            <h2>Técnicas de Estudio Eficaces</h2>
+            <p class="section-description">Descubre métodos probados para potenciar tu concentración y aprendizaje.</p>
+
+            <div class="grid-layout">
+                <div class="content-card">
+                    <h3>3 Técnicas muy útiles</h3>
+                    <video id="videoEstudio1" controls poster="thumbnails/pomodoro.jpg" preload="none">
+                        <source src="Videos/Estudio1.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <p>Implementa estas técnicas y verás mejora en tus estudios.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Mapas Mentales y Conceptuales</h3>
+                    <img src="thumbnails/mapas-mentales-full.jpg" alt="Mapas Mentales">
+                    <p>Organiza tus ideas de forma visual y efectiva.</p>
+                    <a href="Posts/mapas-mentales.html" class="btn-secondary">Leer Post</a>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="ejercicios" class="content-section light-bg">
+        <div class="container">
+            <h2>Ejercicios para Activarte</h2>
+            <p class="section-description">Pausas activas y rutinas rápidas para recargar tu cuerpo y mente.</p>
+
+            <div class="grid-layout">
+                <div class="content-card">
+                    <h3>Estiramientos de Cuello y Hombros (5 min)</h3>
+                    <video id="videoFisico1" controls poster="thumbnails/estiramientos.jpg" preload="none">
+                        <source src="Videos/Fisico1.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <p>Alivia la tensión muscular en tus pausas.</p>
+                    <!-- <a href="#" class="btn-secondary">Ver Video</a> -->    
+                </div>
+                <div class="content-card">
+                    <h3>Ejercicios de Respiración Profunda</h3>
+                    <img src="thumbnails/respiracion.jpg" alt="Ejercicios de Respiración Profunda">
+                    <p>Calma tu mente y reduce el estrés en segundos.</p>
+                    <a href="#" class="btn-secondary">Ver Video</a>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <section id="expresarte" class="content-section">
+        <div class="container">
+            <h2>ExpressArte</h2>
+            <p class="section-description">Encuentra un canal creativo para tus emociones y tu calma.</p>
+
+            <div class="grid-layout">
+                <div class="content-card">
+                    <h3>Dibujo Libre Expresivo</h3>
+                    <video id="videoArte1" controls poster="thumbnails/dibujo-libre.jpg" preload="none">
+                        <source src="Videos/Arte1.mp4" type="video/mp4">
+                        Tu navegador no soporta el elemento de video.
+                    </video>
+                    <p>Dibuja lo que sientes sin reglas ni juicios.</p>
+                </div>
+                <div class="content-card">
+                    <h3>Journaling Creativo</h3>
+                    <img src="thumbnails/journaling-full.jpg" alt="Journaling Creativo">
+                    <p>Combina escritura y arte para explorar tus ideas.</p>
+                    <a href="Posts/journaling-creativo.html" class="btn-secondary">Leer Post</a>
+                </div>
+                </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <p>&copy; 2025 Tu Espacio para el Éxito. Todos los derechos reservados.</p>
+            <p><a href="#">Política de Privacidad</a> | <a href="#">Contacto</a></p>
+        </div>
+    </footer>
+
+    <div id="modoEstudioModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h3>¡TOMATE UN BREAK!</h3>
+            <p id="breakSuggestionText">Sugerencia de descanso aparecerá aquí...</p>
+
+            <div id="breakContentArea" style="margin-top: 20px; text-align: center;">
+                </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
